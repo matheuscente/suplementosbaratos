@@ -1,0 +1,33 @@
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.btn-principal {
+    z-index: 30;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    width: fit-content;
+    display: block;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    color: var(--cor0);
+    background: linear-gradient(120deg, #FF0000 50%, #830000);
+    padding: 20px 40px;
+    border-radius: 0px 10px 0px 10px;
+}
+
+.btn-principal:hover {
+    background: linear-gradient(120deg, #b80000 50%, #700000);
+}
+
+.email:hover {
+    color: var(--cor2)
+}

@@ -1,0 +1,45 @@
+.font-r-p {
+    font: 400 1rem/1.5 "Roboto", sans-serif;
+}
+
+.font-r-p-b {
+    font: bold 1rem/1.5 "Roboto", sans-serif;
+}
+
+.font-r-g-b {
+    font: bold 2rem/1.5 "Roboto", sans-serif;
+}
+
+.font-r-g {
+    font: 400 2rem/1.5 "Roboto", sans-serif;
+}
+
+
+.font-r-m-b {
+    font: bold 1.5rem/1.5 "Roboto", sans-serif;
+}
+
+.font-r-m {
+    font: 400 1.5rem/1.5 "Roboto", sans-serif;
+}
+
+
+.font-o-gg-b {
+    font: 700 4.5rem/2 "oswald", serif;
+}
+
+.font-o-gg {
+    font: 400 4.5rem/2 "oswald", serif;
+}
+
+.font-o-g-b {
+    font: 700 3rem/2 "oswald", serif;
+}
+
+.font-o-g {
+    font: 400 3rem/2 "oswald", serif;
+}
+
+.font-o-m {
+    font: 400 2rem/2 "oswald", serif;
+}

@@ -1,0 +1,130 @@
+.depoimentos-bg {
+    background: linear-gradient(var(--cor3) 60%, var(--cor0) 40%);
+}
+
+.depoimentos{
+    padding-top: 6rem;
+}
+
+.conteiner-items {
+    overflow: hidden;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    Padding: 80px 30px 50px 30px;
+}
+
+.cabecalho {
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cabecalho h1 {
+    letter-spacing: .1rem;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+
+.cabecalho > span {
+    position: relative;
+    letter-spacing: .1rem;
+    width: fit-content;
+    display: block;
+}
+
+.cabecalho > span::after {
+    position: absolute;
+    bottom: -8px;
+    border-radius: 50%;
+    content: "";
+    width: 60%;
+    height: 2px;
+    display: block;
+    background-color: var(--red1);
+}
+
+.depoimento-item-desc {
+    margin: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    position: relative;
+}
+
+.depoimento-item-desc::before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 110%;
+    left: -10px;
+    top: -5px;
+    display: block;
+    background-color: var(--cor3);
+}
+
+.depoimento-item h2{
+    line-height: 1.5rem;
+    text-transform: capitalize;
+}
+
+.depoimentos a {
+    margin: 0 auto;
+}
+
+.depoimento-video {
+    width: 100%;
+    height: 100%;
+}
+
+.depoimento-video-conteiner {
+    flex: 1;
+    width: 400px;
+    height: 400px;
+}
+
+@media (max-width: 730px) {
+    .depoimento-item:first-child h2{
+        color: var(--cor1);
+    }
+
+    .depoimento-item:first-child span {
+        color: #d1d1d1
+    }
+
+    .depoimento-item:first-child .depoimento-item-desc::before {
+        background-color: var(--cor1);
+    }
+}
+
+@media (max-width: 900px) {
+    .cabecalho {
+        padding: 0px 20px;
+    }
+    .depoimentos {
+        padding-top: 4rem;
+    }
+
+    .conteiner-items {
+        padding-top: 40px;
+    }
+    .depoimento-video-conteiner {
+        zoom: 80%;
+    }
+}
+
+@media (max-width: 600px) {
+    .cabecalho h1 {
+        zoom: 70%;
+    }
+
+    .cabecalho > span {
+        padding-top: 10px;
+        zoom: 80%;
+    }
+
+    .depoimento-video-conteiner {
+        zoom: 60%;
+    }
+}

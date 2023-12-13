@@ -1,0 +1,24 @@
+        /*css global*/
+@import "/css/global/global.css";
+@import "/css/home/header.css";
+
+        /*css utilitario*/
+@import "/css/utilitarios/utilitarios.css";
+@import "/css/utilitarios/tipografia.css";
+@import "/css/utilitarios/cores.css";
+@import "/css/utilitarios/anime.css";
+
+        /*home*/
+@import "/css/home/produtos.css";
+@import "/css/home/suplementar.css";
+@import "/css/home/escolha.css";
+@import "/css/home/depoimentos.css";
+@import "/css/home/contato.css";
+@import "/css/home/footer.css";
+
+
+
+
+
+
+
