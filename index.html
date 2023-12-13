@@ -12,23 +12,26 @@
     <meta name="description" content="Suplementos de qualidade com um preço que cabe no seu bolso!">
 </head>
 <body>
-    <header class="header conteiner">
+    <header class="header-fixed">
+        <div class="header conteiner">
             <picture class="marca fadeInDown" data-anime="100">
                 <a href="/"><img src="./foto/marca/marca.png" width="180" height="43" alt="biomax marca"></a>
             </picture>
-            
-        <nav class="nav-header">
-        
-            <button id="btn-mobile" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
-                <span id="hamburguer"></span>
-            </button>
-            <ul id="menu" role="menu" class="menu-header font-r-p cor3">
-                <li class="fadeInLeft" data-anime="100"><a href="#produtos">nossos produtos</a></li>
-                <li class="fadeInLeft" data-anime="200"><a href="#sobre">sobre nós</a></li>
-                <li class="fadeInLeft" data-anime="300"><a href="#depoimentos">depoimentos</a></li>
-                <li class="fadeInLeft" data-anime="400"><a href="#contato">contato</a></li>
-            </ul>
-        </nav>
+    
+            <nav class="nav-header">
+    
+                <button id="btn-mobile" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="menu"
+                    aria-expanded="false">
+                    <span id="hamburguer"></span>
+                </button>
+                <ul id="menu" role="menu" class="menu-header font-r-p cor3" data-smooth="1">
+                    <li class="fadeInLeft" data-anime="100"><a href="#produtos">nossos produtos</a></li>
+                    <li class="fadeInLeft" data-anime="200"><a href="#sobre">sobre nós</a></li>
+                    <li class="fadeInLeft" data-anime="300"><a href="#depoimentos">depoimentos</a></li>
+                    <li class="fadeInLeft" data-anime="400"><a href="#contato">contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     
@@ -176,7 +179,7 @@
     <section id="depoimentos" class="depoimentos-bg">
         <div class="depoimentos conteiner">
             <div class="cabecalho">
-                <h1 class="font-o-gg cor1">ainda em duvidas
+                <h1 class="font-o-gg cor1">ainda em dúvidas
                     <span class="cor-red-1">?</span>
                 </h1>
                 <span class="font-r-m cor1">se liga nesses depoimentos!</span>
@@ -237,7 +240,7 @@
                     <label for="duvida">digite sua dúvida:</label>
                     <textarea id="duvida" type="text" name="duvida" rows="5" class="font-r-p"></textarea>
                 </div>
-                <input class ="btn-principal btn-enviar" type="submit" value="enviar duvida">
+                <input class ="btn-principal btn-enviar" type="submit" value="enviar dúvida">
             </form>
     
             <ul class="contato-redes">
@@ -290,7 +293,7 @@
                 <a href=""><img src="./foto/marca/marca.png" width="180" height="43" alt="biomax marca"></a>
             </picture>
     
-            <ul class="font-r-p footer-lista cor3">
+            <ul class="font-r-p footer-lista cor3" data-smooth="2">
                 <li><a href="#produtos">nossos produtos</a></li>
                 <li><a href="#sobre">sobre nós</a></li>
                 <li><a href="#depoimentos">depoimentos</a></li>
@@ -299,9 +302,11 @@
         </div>
         <p>Biomax Suplementos - CNPJ: 09.095.366/0001-66 © Todos os direitos reservados. 2023</p>
     </footer>
-
+    <script src="./js/plugins/toggleMenu.min.js"></script>
+    <script src="./js/plugins/slide.min.js"></script>
+    <script src="./js/plugins/smooth.min.js"></script>
     <script src="./js/plugins/simple-anime.min.js"></script>
-    <script type="text/javascript" src="./js/script.min.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
     
     
 </body>

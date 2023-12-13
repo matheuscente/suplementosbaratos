@@ -1,3 +1,4 @@
+
 window.SimpleAnime = class {
   constructor() {
     (this.items = document.querySelectorAll("[data-anime]")), this.init();
@@ -27,7 +28,6 @@ window.SimpleAnime = class {
         let heightForTop = t.getBoundingClientRect().top;
 
         if(heightForTop + heightItem >= totalHeight * 0.2 + totalHeight) {
-            console.log(heightForTop + heightItem, totalHeight)
            return false;
         } else {
             return true;
@@ -41,5 +41,3 @@ window.SimpleAnime = class {
       document.addEventListener("visibilitychange", this.handleVisibility);
   }
 };
-
-

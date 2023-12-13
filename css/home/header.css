@@ -2,9 +2,19 @@
     max-width: fit-content;
 }
 
+
+.header-fixed {
+    height: 100px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 31;
+    background-color: var(--cor0);
+}
+
 .header {
     justify-content: space-between;
-    padding: 1rem;
+    padding: 1rem 2rem 1rem 2rem;
     box-sizing: border-box;
     height: 100px;
     align-items: center;
@@ -33,18 +43,12 @@
 
 }
 
+
 @media (max-width: 900px) {
 
-    .header {
-        margin-top: 20px;
-        height: 140px;
-        flex-direction: column;
-        gap: 0px;
+    #menu li:hover {
+        transform: none;
     }
-
-}
-
-@media (max-width: 700px) {
 
     .header {
         flex-direction: row;
