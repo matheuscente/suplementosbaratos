@@ -19,8 +19,8 @@
 .footer-redes {
     justify-self: start;
     justify-items: center;
-    display: grid;
-    grid-template-columns:1fr;
+    display: flex;
+   flex-direction: column;
     gap: 1.625rem;
 
 }
@@ -94,18 +94,22 @@
         margin: 0 auto;
     }
     .footer-grid {
-        row-gap: 3rem;
+        padding-left: 30px;
+        padding-right: 30px;
+        gap: 3rem;
 
     }
 
     .footer-lista {
-        width: 100%;
+
+        width: fit-content;
         justify-content: end;
         grid-row: 1;
-        grid-column: 1/-1;
+
     }
 
     .footer-redes {
+        justify-self: center;
         grid-row: 1;
         grid-column: 2;
     }
