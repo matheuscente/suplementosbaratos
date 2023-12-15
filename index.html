@@ -113,12 +113,12 @@
         </nav>
     </main>
 
-    <section class="bg">
+    <section class="sup">
         <div class="conteiner suplementar">
-            <h1 class="font-o-g-b cor1 fadeInDown" data-anime="100">Por que suplementar<span class="cor-red-1"> ?</span>
+            <h1 class="font-o-g-b cor3 fadeInDown" data-anime="100">Por que suplementar<span class="cor-red-1"> ?</span>
             </h1>
     
-            <ul class="suplementar-lista font-r-p-b cor1">
+            <ul class="suplementar-lista font-r-p-b cor2">
                 <li class="fadeInDown" data-anime="200">
                     <div class="foto-sup">
                         <img src="./foto/banner/fire.svg" width="24" height="24" alt="icone de fogo">
@@ -220,33 +220,35 @@
         </div>
     </section>
 
-    <article id="contato" class="contato ">
+    <article id="contato" class="contato">
+        <div class="filtro-bg">
         <h1 class="conteiner cor1 font-o-gg" data-anime="200">entre em contato <span class="cor-red-1">:</span></h1>
         <div class="contato-grid conteiner">
-            <form class="font-r-m cor1 form" action="./" method="POST" data-anime="100">
-                <div class="item-formulario">
-                    <label for="nome">nome:</label>
-                    <input id="nome" type="text" name="nome" placeholder="seu nome" required class="font-r-p">
-                </div>
-                <div class="item-formulario">
+                <form class="font-r-m cor1 form" action="./" method="POST" data-anime="100">
                     <div class="item-formulario">
-                        <label for="email">email:</label>
-                        <input id="email" type="email" name="email" placeholder="exemplo@exemplo.com" class="font-r-p">
+                        <label for="nome">nome:</label>
+                        <input id="nome" type="text" name="nome" placeholder="seu nome" required class="font-r-p">
                     </div>
-    
-                    <div class="item-formulario tel">
-                        <label for="fone">telefone:</label>
-                        <input id="fone" type="tel" name="fone" placeholder="11999999999" required class="font-r-p">
-    
+                    <div class="item-formulario">
+                        <div class="item-formulario">
+                            <label for="email">email:</label>
+                            <input id="email" type="email" name="email" placeholder="exemplo@exemplo.com" class="font-r-p">
+                        </div>
+            
+                        <div class="item-formulario tel">
+                            <label for="fone">telefone:</label>
+                            <input id="fone" type="tel" name="fone" placeholder="11999999999" required class="font-r-p">
+            
+                        </div>
                     </div>
-                </div>
-    
-                <div class="textarea">
-                    <label for="duvida">digite sua dúvida:</label>
-                    <textarea id="duvida" type="text" name="duvida" rows="5" class="font-r-p"></textarea>
-                </div>
-                <input class ="btn-principal btn-enviar" type="submit" value="enviar dúvida">
-            </form>
+            
+                    <div class="textarea">
+                        <label for="duvida">digite sua dúvida:</label>
+                        <textarea id="duvida" type="text" name="duvida" rows="5" class="font-r-p"></textarea>
+                    </div>
+                    <input class="btn-principal btn-enviar" type="submit" value="enviar dúvida">
+                </form>
+
     
             <ul class="contato-redes">
                 <li class="contato-rede fadeInRight" data-anime="100">
@@ -266,9 +268,8 @@
                 </li>
     
             </ul>
-            
-    
         </div>
+    </div>
     </article>
 
     <footer class="footer conteiner">

@@ -1,7 +1,13 @@
 .contato {
-    padding: 0px 50px 0px 50px;
+    background-image: url('../foto/contato/contato-fundo.webp');
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     position: relative;
 }
+
+.contato .filtro-bg {
+    width: 100%;
+}
+
 
 .contato-grid {
     align-items: start;
@@ -9,16 +15,6 @@
     grid-template-columns: 1fr 1fr;
     gap: 6rem;
     padding-bottom: 50px;
-}
-
-.contato::after {
-    content: '';
-    width: 90vw;
-    height: 5px;
-    display: block;
-    background-color: var(--cor1);
-    margin: 0 auto;
-    border-radius: 5px;
 }
 
 .contato-redes {
@@ -156,9 +152,7 @@
 }
 
 @media (max-width: 600px) {
-    .contato {
-        padding: 100px 20px 0px 20px;
-    }
+
     .form {
         width: 100vw;
     }
@@ -182,8 +176,12 @@
 
 @media (max-width: 450px) {
     .contato {
-        padding-bottom: 20px;
         zoom: 70%;
+    }
+
+    .contato h1 {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .form,

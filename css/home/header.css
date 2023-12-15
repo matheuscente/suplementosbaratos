@@ -47,7 +47,7 @@
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 700px) {
 
     #menu li:hover {
         transform: none;
@@ -59,7 +59,7 @@
     }
 
     .menu-header {
-        background-color: var(--cor0);
+        background-color: var(--cor3);
         z-index: 100;
         display: block;
         position: absolute;
@@ -82,7 +82,7 @@
     .menu-header li a {
         padding: 1rem 0px;
         margin: 0px 1rem;
-        border-bottom: 2px solid rgba(0, 0, 0, .05);
+        border-bottom: 2px solid rgba(255, 255, 255, .5);
     }
 
     #btn-mobile {
@@ -96,6 +96,7 @@
     }
 
     #hamburguer {
+        color: #fff;
         display: block;
         border-top: 4px solid;
         width: 25px;

@@ -35,8 +35,3 @@ img {
 .email:hover {
     color: var(--cor2)
 }
-
-.bg {
-    background: linear-gradient(to bottom, #3a0000 , transparent 20%);
-    opacity: 1;
-}

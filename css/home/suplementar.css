@@ -1,3 +1,7 @@
+section.sup {
+    background-color: var(--cor1);
+}
+
 .suplementar h1 {
     padding: 4rem; 
     text-transform: uppercase;
@@ -11,7 +15,7 @@
     gap: 6rem;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 5rem;
+    padding-bottom: 5rem;
 } 
 
 .suplementar-lista li {
@@ -32,7 +36,7 @@
 .foto-sup {
     padding: 20px;
     width: 100px;
-    border: 10px solid var(--cor1);
+    border: 10px solid var(--cor2);
     border-radius: 50%;
 }
 
