@@ -1,5 +1,5 @@
 .contato {
-    background-image: url('../foto/contato/contato-fundo.webp');
+    background-image: url('/foto/contato/contato-fundo.webp');
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     position: relative;
 }
@@ -139,16 +139,13 @@
         margin: 40px auto;
         column-gap: 4rem;
         justify-content: center;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
 
     }
 
-    .email {
-        width: inherit;
-        justify-self: center;
-        grid-column: 1/-1;
 
-    }
+
+
 }
 
 @media (max-width: 600px) {
