@@ -1,5 +1,7 @@
 .contato {
     background-image: url('/foto/contato/contato-fundo.webp');
+    background-position: center;
+    background-position: cover;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     position: relative;
 }
