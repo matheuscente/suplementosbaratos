@@ -1,5 +1,5 @@
 .contato {
-    padding: 120px 50px 0px 50px;
+    padding: 0px 50px 0px 50px;
     position: relative;
 }
 
@@ -9,16 +9,6 @@
     grid-template-columns: 1fr 1fr;
     gap: 6rem;
     padding-bottom: 50px;
-}
-.contato::before {
-    top: 120px;
-    content: '';
-    width: 90vw;
-    height: 5px;
-    display: block;
-    background-color: var(--cor1);
-    margin: 0 auto;
-    border-radius: 5px;
 }
 
 .contato::after {
